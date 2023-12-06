@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш документ</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Цвет фона, если нужен */
+        }
+
+        .header {
+            background-color: #a9c9f3; /* Нежно-синий цвет */
+            padding: 20px;
+            text-align: center;
+            color: #ffffff; /* Белый цвет текста */
+            border-bottom: 4px solid #6b87a7; /* Полутемная рамка вокруг полосы */
+            width: 100%;
+        }
+
+        .iframe-container {
+            width: 21cm; /* Ширина A4 в сантиметрах */
+            height: 29.7cm; /* Высота A4 в сантиметрах */
+            border: 1px solid #000; /* Черная рамка вокруг контейнера */
+            overflow: hidden;
+            margin-top: 20px; /* Отступ сверху, чтобы не перекрывать полосу */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* Убираем рамку iframe */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Киркин Антон</h1>
+    </div>
+
+    <div class="iframe-container">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vR9sh8zXtQyNwVIb2wbdxrhZINvXRCs-aahvApdQ-Peet3vSYpvhL-3xnJoHctYMg/pub?embedded=true"></iframe>
+
+</body>
+</html>
